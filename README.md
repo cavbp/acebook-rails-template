@@ -14,6 +14,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Quickstart
 
+Pre-requisite:
+
+If you don't have postgresql setup in your machine, run:
+
+```bash
+> brew install libpq
+> brew install postgresql
+
+----
+
 First, clone this repository. Then:
 
 ```bash
