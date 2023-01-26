@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "node_modules/govuk-frontend/govuk/all";
+
+ .dummy-class {
+    border: 2px red bold;
+ }
