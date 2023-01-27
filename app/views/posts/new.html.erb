@@ -1,6 +1,9 @@
-<%= form_for @post do |form| %>
-  <%= form.label :message %>
-  <%= form.text_field :message %>
+<div class="govuk-form-group">
+  <%= form_for @post do |form| %>
+    <h1 class="govuk-label-wrapper"><%= form.label :message, class: "govuk-label govuk-label--l" %></h1>
+    <%= form.text_field :message, class: "govuk-input" %>
 
-  <%= form.submit "Submit" %>
-<% end %>
+    <%= form.submit "Submit", class: "govuk-button" %>
+  <% end %>
+</div>
+
