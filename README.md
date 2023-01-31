@@ -21,7 +21,7 @@ If you don't have postgresql setup in your machine, run:
 ```bash
 > brew install libpq
 > brew install postgresql
-
+```
 ----
 
 First, clone this repository. Then:
@@ -31,8 +31,10 @@ First, clone this repository. Then:
 > bin/rails db:create
 > bin/rails db:migrate
 
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+# Run the tests to ensure it works
+> bundle exec rspec 
+# Start the server at localhost:3000
+> bin/rails server 
 ```
 
 ## Troubleshooting
