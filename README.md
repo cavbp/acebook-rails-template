@@ -24,7 +24,7 @@ If you don't have postgresql setup in your machine, run:
 ```
 ----
 
-First, clone this repository. Then:
+First, clone this repository. and `CD` into it Then:
 
 ```bash
 > bundle install
